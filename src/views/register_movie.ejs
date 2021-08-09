@@ -1,0 +1,71 @@
+<form 
+    class="m-5 p-0" 
+    id="form-register-movie" 
+    autocomplete="off" 
+    style="width: 500px; border: 1px solid var(--bs-gray-dark);"
+>
+    <h3 class="text-white text-center py-4" style="background: var(--bs-gray-dark);" >Register movie</h3>
+
+    <div class="col m-3">
+        <article class="mt-5">
+            <label class="form-label text-light ms-1" for="name">Name</label>
+            <input type="text" class="form-control dark" name="name" id="name" placeholder="Enter the movie name"required />
+        </article>
+
+        <article class="mt-3">
+            <label class="form-label text-light ms-1" for="description">Description</label>
+            <textarea class="form-control dark" name="description" id="description" placeholder="Enter the movie description"></textarea>
+        </article>
+
+        <article class="mt-3">
+            <label class="form-label text-light ms-1" for="slug">Slug</label>
+            <input type="text" class="form-control dark" name="slug" id="slug" placeholder="Enter the movie slug" required />
+        </article>
+
+        <article class="mt-3">
+            <label class="form-label text-light ms-1" for="duration">Duration</label>
+            <input type="text" class="form-control dark" name="duration" id="duration" placeholder="Enter the movie duration" required />
+        </article>
+
+        <article class="mt-3">
+            <label class="form-label text-light ms-1" for="year">Year</label>
+            <input type="number" class="form-control dark" name="year" id="year" placeholder="Enter the movie year" required />
+        </article>
+
+        <article class="mt-3">
+            <label class="form-label text-light ms-1">Categories</label>
+            <div class="d-flex flex-wrap">
+                <% categories.forEach( category => { %>
+                    <span class="m-1">
+                        <input class="form-check-input" type="checkbox" name="category" value="<%= category.id %>" id="category-<%= category.id %>">
+                        <label class="form-check-label text-light" for="category-<%= category.id %>">
+                            <%= category.name %> 
+                        </label>
+                    </span>
+                <% }); %> 
+            </div>
+        </article>
+
+        <article class="mt-3">
+            <label class="form-label text-light ms-1" for="thumb">Thumb</label>
+            <input type="text" class="form-control dark" name="thumb" id="thumb" placeholder="Enter the movie thumb" required />
+        </article>
+
+        <article class="mt-3">
+            <label class="form-label text-light ms-1" for="source">Source</label>
+            <input type="text" class="form-control dark" name="source" id="source" placeholder="Enter the movie source" required />
+        </article>
+
+        <p class="my-4 ms-1" id="form-message"></p>
+
+        <article class="d-flex">
+            <button class="btn btn-primary ms-auto px-5">
+                Save
+            </button>
+        </article>
+    </div>
+</form>
+
+
+
+<script src="/public/javascript/onSubmitRegisterMovie.js" type="module"></script>

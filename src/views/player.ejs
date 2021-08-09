@@ -1,0 +1,39 @@
+
+<main class="container p-3 pt-0 mt-5" style="background: #343a40;">
+    <div class="row py-3" >
+        <div class="col-auto">
+            <img src="<%= thumb %>" />
+        </div>
+        <div class="col" >
+            <h2 class="text-white text-center m-0"><%= name %></h2>
+
+            <div class="info px-3 py-1 text-light mt-4">
+                <strong>Sinopse:</strong> 
+                <span class="ms-3"><%= description %></span>
+            </div>
+            <div class="info px-3 py-1 text-light">
+                <strong>Duração:</strong> 
+                <span class="ms-3"><%= duration %></span>
+            </div>
+            <div class="info px-3 py-1 text-light">
+                <strong>Lançamento:</strong> 
+                <span class="ms-3"><%= year %></span>
+            </div>
+            <div class="info px-3 py-1 text-light">
+                <strong>Categorias:</strong> 
+                <span class="ms-3"><%= %></span>
+            </div>
+        </div>
+    </div>
+    
+    <video class="w-100" controls>
+        <source src="<%=src%>" type="video/mp4"></source>
+        <source src="<%=src%>" type="video/ogg"></source>
+        <source src="<%=src%>" type="video/webm"></source>
+    </video>
+
+    <div class="d-flex justify-content-between mt-5">
+        <a href="/" role="button" class="btn btn-lg btn-primary">Anterior</a>
+        <a href="/" role="button" class="btn btn-lg btn-primary">Próximo</a>
+    </div>
+</main>

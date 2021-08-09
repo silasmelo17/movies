@@ -1,0 +1,13 @@
+
+<main class="container d-grid mt-5">
+    <% data.forEach( movie=> { %>
+        <a href="/movies/<%= movie.slug %>" class="text-decoration-none">
+            <article class="movie">
+                <h2 class="title text-white text-center mb-0 align-items-center">
+                    <%= movie.name %>
+                </h2>
+                <img src="<%= movie.thumb %>" alt="<%= movie.name %>" />
+            </article>
+        </a>
+    <% }); %>
+</main>

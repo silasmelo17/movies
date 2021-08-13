@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./",
+    "lib": ["ES6"],
+    "strict": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "baseUrl": "./src",
+    "paths": {
+      "@Config/*": ["./config/*"],
+      "@Controllers/*": ["./controller/*"],
+      "@Database/*": ["./database/*"],
+      "@Middlewares/*": ["./middlewares/*"],
+      "@Models/*": ["./models/*"],
+      "@Routes/*": ["./routes/*"],
+      "@Types/*": ["./types/*"],
+      "@Util/*": ["./util/*"],
+    }
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["./node_modules"]
+}

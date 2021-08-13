@@ -21,7 +21,11 @@
             </div>
             <div class="info px-3 py-1 text-light">
                 <strong>Categorias:</strong> 
-                <span class="ms-3"><%= %></span>
+                <% Categories.forEach( category => { %> 
+                    <a href="/category/<%= category.id %>" class="text-light text-decoration-none">
+                        <span class="ms-3"><%= category.name %></span>
+                    </a>
+                <% }) %> 
             </div>
         </div>
     </div>

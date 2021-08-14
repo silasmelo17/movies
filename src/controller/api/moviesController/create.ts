@@ -31,7 +31,7 @@ async function create( req: Request, res: Response ) {
             models.Movies_Categories.create(relationship)
         ));
 
-        return res.status(201).json({});
+        return res.status(201).json(movie);
     } catch(err) {
         return res.status(503).json(err);
     }

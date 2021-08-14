@@ -12,14 +12,21 @@ async function findAll( req: Request, res: Response ) {
     const limit = Number(req.query.limit) || 12;
     const page = Number(req.query.page) || 1;
 
-    const pagination = validatePagination(limit,page);
-    const attributes = validateAttributes(String(fields));
-    const include = validateInclude(String(fields));
-
     try {
-        const data = await models.Movie.findAll({ attributes, include, ...pagination });
+        const count = await models.Movie.count();
 
-        return res.status(200).json(data);
+        const maxPages = Math.ceil(count/limit);
+        const currentPage = page > maxPages ? maxPages: page;
+
+        const pagination = validatePagination(limit, currentPage ); 
+        const attributes = validateAttributes(String(fields));
+        const include = validateInclude(String(fields));
+        
+        const data = await models.Movie.findAll({ attributes, include, ...pagination });
+        
+        return res.status(200).json({ 
+            data, count, limit, page: currentPage
+        });
     } catch( err ) {
         return res.status(503).json({
             error: "Não foi possível retornar os filmes",

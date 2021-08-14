@@ -1,0 +1,16 @@
+
+.page-link {
+    border-color: var(--bs-gray-dark);
+    background: var(--bs-dark);
+}
+
+.page-item.disabled .page-link {
+    border-color: var(--bs-gray-dark);
+    background: var(--bs-gray-dark);
+}
+
+.page-link:hover {
+    background: var(--bs-gray-dark);
+    border-color: var(--bs-gray-dark);
+}
+

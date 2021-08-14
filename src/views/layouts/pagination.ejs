@@ -1,0 +1,60 @@
+<% 
+    const pages = Math.ceil(count/limit);
+    const previous =  page <= 1 ? 'disabled': '';
+    const next =  page >= pages ? 'disabled': ''; 
+%>
+
+
+<nav class="mt-5">
+    <ul class="pagination justify-content-center">
+        <li class="page-item <%= previous %>">
+            <a 
+                class="page-link text-light py-2 px-3" 
+                href="<%=baseUrl%>?page=<%=page-1%>&limit=<%=limit%>"
+            >
+                Anterior
+            </a>
+        </li>
+
+        <% 
+            const margin = Math.floor(buttons/2);
+
+            const intervals = {
+                'startPagination': [ 1, pages <= buttons ? pages: buttons ],
+                'middlePagination': [ page-margin, page+margin ],
+                'finalPagination': [ pages-buttons+1, pages ]
+            }
+
+            const startPagination = page <= margin+1;
+            const middlePagination = page > margin+1 && page <= pages-margin;
+
+            const interval = startPagination 
+                ? 'startPagination'
+                :  middlePagination 
+                    ? 'middlePagination'
+                    : 'finalPagination' 
+        %>
+
+        <% const [ start, end ] = intervals[interval]; %>
+        <% for( let i = start; i <= end; i++ ) { %> 
+            <li class="page-item <%= i === page ? 'active': '' %>">
+                <a 
+                    class="page-link text-light py-2 px-3"
+                    href="<%=baseUrl%>?page=<%=i%>&limit=<%=limit%>"
+                >
+                    <%= i %>
+                </a>
+            </li>
+        <% } %>
+
+
+        <li class="page-item <%= next %>">
+            <a 
+                class="page-link text-light py-2 px-3" 
+                href="<%=baseUrl%>?page=<%=page+1%>&limit=<%=limit%>"
+            >
+                Próximo
+            </a>
+        </li>
+    </ul>
+</nav>

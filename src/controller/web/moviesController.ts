@@ -17,7 +17,7 @@ async function index( req: Request, res: Response, next: NextFunction ) {
     res.locals = {
         view: 'movies',
         title: "Filmes",
-        data
+        ...data
     };
 
     return next();

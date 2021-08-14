@@ -11,8 +11,21 @@ const thumb = document.querySelector("#thumb");
 const source = document.querySelector("#source");
 
 const fields = [ name, description, slug, duration, year, thumb, source ];
+const categories = [];
 
-const categories = document.querySelectorAll('[name="category"]');
+document
+    .querySelectorAll('[name="category"]')
+    .forEach(category => categories.push(category) );
+
+
+categories.forEach( category => {
+    category.addEventListener( 'click', event => {
+        const checkbox = categories.filter( checkbox => checkbox.checked === true );
+
+        if( checkbox.length === 5 )
+            event.preventDefault();
+    });
+})
 
 
 
@@ -48,7 +61,10 @@ const onSubmit = async event => {
         duration: duration.value,
         year: Number(year.value),
         thumb: thumb.value,
-        src: source.value
+        src: source.value,
+        categories: categories
+            .filter( category => category.checked === true )
+            .map( category => category.value )
     });
 
     if(result.status === 201 ) {

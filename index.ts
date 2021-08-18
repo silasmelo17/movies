@@ -9,9 +9,8 @@ const expressLayouts = require('express-ejs-layouts');
 const app = express();
 
 // Controllers
-import moviesRouter from "@Routes/web/movies";
-import moviesRouterAPI from "@Routes/api/movies";
-import categoriesRouterAPI from "@Routes/api/categories";
+import apiRouter from '@Routes/api/index';
+import webRouter from '@Routes/web/index';
 
 // Express Config
 app.use(express.json());
@@ -31,10 +30,8 @@ app.set('views', './src/views');
 app.set('view engine', 'ejs');
 
 // Routes
-app.use(moviesRouterAPI);
-app.use(categoriesRouterAPI);
-
-app.use(moviesRouter);
+app.use(apiRouter);
+app.use(webRouter);
 
 //Listen Server
 const PORT = process.env.PORT || 8080;

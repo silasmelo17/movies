@@ -2,14 +2,7 @@
 <main class="container mt-5">
     <section class="d-grid">
         <% data.forEach( movie=> { %>
-            <a href="/movies/<%= movie.slug %>" class="text-decoration-none">
-                <article class="movie">
-                    <h2 class="title text-white text-center mb-0 align-items-center">
-                        <%= movie.name %>
-                    </h2>
-                    <img src="<%= movie.thumb %>" alt="<%= movie.name %>" />
-                </article>
-            </a>
+            <%- include('components/movie', movie ) -%> 
         <% }); %>
     </section>
     <%- include('layouts/pagination', { page, count, limit, buttons: 5, baseUrl: '/movies' } ); -%>

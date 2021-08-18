@@ -4,9 +4,10 @@ import models from '@Models/index';
 
 
 
-async function index (req: Request, res: Response ) {
+async function findAll (req: Request, res: Response ) {
     try {
         const result = await models.Category.findAll();
+
         return res.status(200).json(result);
     }catch(err) {
         return res.status(503).json(err);
@@ -15,6 +16,4 @@ async function index (req: Request, res: Response ) {
 
 
 
-export default {
-    index
-}
+export default findAll;

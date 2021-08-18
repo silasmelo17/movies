@@ -36,8 +36,16 @@ const MovieModel = sequelize.define( 'Movie', {
     src: {
         type: DataTypes.STRING,
         allowNull: false
+    },
+    createdAt: {
+        type: DataTypes.DATE,
+        allowNull: false
+    },
+    updatedAt: {
+        type: DataTypes.DATE,
+        allowNull: false
     }
-}, { timestamps: false });
+});
 
 
 export default MovieModel;

@@ -3,14 +3,12 @@ import { Request, Response } from 'express';
 
 import models from '@Models/index';
 
-import { validatePagination, validateAttributes, validateInclude } from './validate';
+import { validateInclude } from './validate';
 
 
 
 async function findAll( req: Request, res: Response ) {
-    const { fields } = req.query;
-    const limit = Number(req.query.limit) || 12;
-    const page = Number(req.query.page) || 1;
+    const { fields, attributes, page, limit, offset  } = res.locals;
 
     try {
         const count = await models.Movie.count();
@@ -18,16 +16,22 @@ async function findAll( req: Request, res: Response ) {
         const maxPages = Math.ceil(count/limit);
         const currentPage = page > maxPages ? maxPages: page;
 
-        const pagination = validatePagination(limit, currentPage ); 
-        const attributes = validateAttributes(String(fields));
-        const include = validateInclude(String(fields));
-        
-        const data = await models.Movie.findAll({ attributes, include, ...pagination });
+        const include = validateInclude(fields as [], attributes );
+
+        const data = await models.Movie.findAll({ 
+            attributes,
+            include,
+            limit,
+            offset
+        });
         
         return res.status(200).json({ 
-            data, count, limit, page: currentPage
+            data, 
+            count, 
+            limit, 
+            page: currentPage,
         });
-    } catch( err ) {
+    } catch(err) {
         return res.status(503).json({
             error: "Não foi possível retornar os filmes",
             ...err

@@ -9,6 +9,7 @@ async function index( req: Request, res: Response, next: NextFunction ) {
 
     const { data } = await axios.get( '/api/movies', {
         params: {
+            fields: [ 'name', 'thumb', 'slug' ],
             limit,
             page
         }

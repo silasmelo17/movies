@@ -4,6 +4,6 @@ import axios from 'axios';
 
 
 export default axios.create({
-    baseURL: `http://localhost:${process.env.PORT}`,
+    baseURL: process.env.API_URL,
     timeout: 30000
 });

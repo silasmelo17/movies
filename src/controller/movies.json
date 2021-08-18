@@ -1,0 +1,402 @@
+[
+    {
+        "name": "Venom",
+        "thumb": "/public/movies/Venom/thumb.jpg",
+        "slug": "venom",
+        "src": "/public/movies/Venom/video.mkv",
+        "description": "Em Venom, Eddie Brock (Tom Hardy) é um jornalista investigativo, que tem um quadro próprio em uma emissora local. Um dia, ele é escalado para entrevistar Carlton Drake (Riz Ahmed), o criador da Fundação Vida, que tem investido bastante em missões espaciais de forma a encontrar possíveis usos medicinais para a humanidade. Após acessar um documento sigiloso enviado à sua namorada, a advogada Anne Weying (Michelle Williams), Brock descobre que Drake tem feito experimentos científicos em humanos. Ele resolve denunciar esta situação durante a entrevista, o que faz com que seja demitido. Seis meses depois, o ainda desempregado Brock é procurado pela dra. Dora Skirth (Jenny Slate) com uma denúncia: Drake estaria usando simbiontes alienígenas em testes com humanos, muitos deles mortos como cobaias.",
+        "duration": "1:52:06",
+        "year": 2018,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": []
+    },
+    {
+        "name": "A Forma da Água",
+        "thumb": "/public/movies/A Forma da Água/thumb.png",
+        "slug": "a-forma-da-água",
+        "src": "/public/movies/A Forma da Água/video.mp4",
+        "description": "Década de 60. Em meio aos grandes conflitos políticos e transformações sociais dos Estados Unidos da Guerra Fria, a muda Elisa (Sally Hawkins), zeladora em um laboratório experimental secreto do governo, se afeiçoa a uma criatura fantástica mantida presa e maltratada no local. Para executar um arriscado e apaixonado resgate ela recorre ao melhor amigo Giles (Richard Jenkins) e à colega de turno Zelda (Octavia Spencer).",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": [
+            "legenda.srt"
+        ]
+    },
+    {
+        "name": "Angry Birds O Filme",
+        "thumb": "/public/movies/Angry Birds O Filme/thumb.jpg",
+        "slug": "angry-birds-o-filme",
+        "src": "/public/movies/Angry Birds O Filme/video.mkv",
+        "description": "Em uma pequena comunidade em um paraíso de aves que não voam, há muito tempo vivem pacificamente, com exceção de Red (Jason Sudeikis), um pássaro com uma raiva constante e que sempre age por impulso. Os pássaros se surpreendem com a aparição inesperada de porcos verdes liderados por Leonardo (Bill Hader) em sua ilha. Red, no início, desconfia dos suínos, mas ninguém da ilha acredita em sua palavra. Red, então, com a ajuda de seus amigos Chuck (Josh Gad) e Bomba (Danny McBride), resolve investigar as criaturas, mas para isso precisará da ajuda do lendário herói Mega Águia (Peter Dinklage).",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": [
+            "legenda.srt",
+            "legenda2.srt"
+        ]
+    },
+    {
+        "name": "Batman vs Superman",
+        "thumb": "/public/movies/Batman vs Superman/thumb.jpg",
+        "slug": "batman-vs-superman",
+        "src": "/public/movies/Batman vs Superman/video.mkv",
+        "description": "Em Batman Vs Superman - A Origem Da Justiça, o confronto entre Superman (Henry Cavill) e Zod (Michael Shannon) em Metrópolis fez com que a população mundial se dividisse acerca da existência de extra-terrestres na Terra. Enquanto muitos consideram o Superman como um novo deus, há aqueles que consideram extremamente perigoso que haja um ser tão poderoso sem qualquer tipo de controle. Bruce Wayne (Ben Affleck) é um dos que acreditam nesta segunda hipótese. Sob o manto de um Batman violento e obcecado, ele investiga o laboratório de Lex Luthor (Jesse Eisenberg), que descobriu uma pedra verde que consegue eliminar e enfraquecer os filhos de Krypton.",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": [
+            "legenda.srt"
+        ]
+    },
+    {
+        "name": "Capitão América Guerra Civil",
+        "thumb": "/public/movies/Capitão América Guerra Civil/thumb.jpg",
+        "slug": "capitão-américa-guerra-civil",
+        "src": "/public/movies/Capitão América Guerra Civil/video.mkv",
+        "description": "Em Capitão América: Guerra Civil, Steve Rogers (Chris Evans) é o atual líder dos Vingadores, super-grupo de heróis formado por Viúva Negra (Scarlett Johansson), Feiticeira Escarlate (Elizabeth Olsen), Visão (Paul Bettany), Falcão (Anthony Mackie) e Máquina de Combate (Don Cheadle). O ataque de Ultron fez com que os políticos buscassem algum meio de controlar os super-heróis, já que seus atos afetam toda a humanidade. Tal decisão coloca o Capitão América em rota de colisão com Tony Stark (Robert Downey Jr.), o Homem de Ferro.",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": [
+            "legenda.srt",
+            "legenda2.srt"
+        ]
+    },
+    {
+        "name": "Com Amor Simon",
+        "thumb": "/public/movies/Com Amor Simon/thumb.jpg",
+        "slug": "com-amor-simon",
+        "src": "/public/movies/Com Amor Simon/video.avi",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": [
+            "legenda.srt"
+        ]
+    },
+    {
+        "name": "Divertida Mente",
+        "thumb": "/public/movies/Divertida Mente/thumb.jpg",
+        "slug": "divertida-mente",
+        "src": "/public/movies/Divertida Mente/video.mp4",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": []
+    },
+    {
+        "name": "Extraordinário",
+        "thumb": "/public/movies/Extraordinário/thumb.png",
+        "slug": "extraordinário",
+        "src": "/public/movies/Extraordinário/video.mp4",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": []
+    },
+    {
+        "name": "Guardiões da Galáxia 2",
+        "thumb": "/public/movies/Guardiões da Galáxia 2/thumb.jpg",
+        "slug": "guardiões-da-galáxia-2",
+        "src": "/public/movies/Guardiões da Galáxia 2/video.mp4",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": [
+            "legenda.srt"
+        ]
+    },
+    {
+        "name": "Hoje eu quero voltar sozinho",
+        "thumb": "/public/movies/Hoje eu quero voltar sozinho/thumb.jpg",
+        "slug": "hoje-eu-quero-voltar-sozinho",
+        "src": "/public/movies/Hoje eu quero voltar sozinho/video.m4v",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": []
+    },
+    {
+        "name": "Homem Aranha De Volta Ao Lar",
+        "thumb": "/public/movies/Homem Aranha De Volta Ao Lar/thumb.png",
+        "slug": "homem-aranha-de-volta-ao-lar",
+        "src": "/public/movies/Homem Aranha De Volta Ao Lar/video.mp4",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": [
+            "legenda.srt"
+        ]
+    },
+    {
+        "name": "Homem-Aranha no Aranhaverso",
+        "thumb": "/public/movies/Homem-Aranha no Aranhaverso/thumb.png",
+        "slug": "homem-aranha-no-aranhaverso",
+        "src": "/public/movies/Homem-Aranha no Aranhaverso/video.mkv",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": [
+            "legenda.srt"
+        ]
+    },
+    {
+        "name": "Logan",
+        "thumb": "/public/movies/Logan/thumb.jpg",
+        "slug": "logan",
+        "src": "/public/movies/Logan/video.mkv",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": [
+            "legenda.srt"
+        ]
+    },
+    {
+        "name": "Luca",
+        "thumb": "/public/movies/Luca/thumb.png",
+        "slug": "luca",
+        "src": "/public/movies/Luca/video.mp4",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": []
+    },
+    {
+        "name": "Meu Malvado Favorito 3",
+        "thumb": "/public/movies/Meu Malvado Favorito 3/thumb.jpg",
+        "slug": "meu-malvado-favorito-3",
+        "src": "/public/movies/Meu Malvado Favorito 3/video.mp4",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": [
+            "legenda.srt"
+        ]
+    },
+    {
+        "name": "Moana Um Mar de Aventuras",
+        "thumb": "/public/movies/Moana Um Mar de Aventuras/thumb.jpg",
+        "slug": "moana-um-mar-de-aventuras",
+        "src": "/public/movies/Moana Um Mar de Aventuras/video.mkv",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": [
+            "legenda.srt",
+            "legenda2.srt"
+        ]
+    },
+    {
+        "name": "Mogli O Menino Lobo",
+        "thumb": "/public/movies/Mogli O Menino Lobo/thumb.jpg",
+        "slug": "mogli-o-menino-lobo",
+        "src": "/public/movies/Mogli O Menino Lobo/video.mp4",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": []
+    },
+    {
+        "name": "Mulher Maravilha",
+        "thumb": "/public/movies/Mulher Maravilha/thumb.jpg",
+        "slug": "mulher-maravilha",
+        "src": "/public/movies/Mulher Maravilha/video.mp4",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": [
+            "legenda.srt"
+        ]
+    },
+    {
+        "name": "O Rei do Show",
+        "thumb": "/public/movies/O Rei do Show/thumb.png",
+        "slug": "o-rei-do-show",
+        "src": "/public/movies/O Rei do Show/video.mp4",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": []
+    },
+    {
+        "name": "One Piece Filme Z",
+        "thumb": "/public/movies/One Piece Filme Z/thumb.jpg",
+        "slug": "one-piece-filme-z",
+        "src": "/public/movies/One Piece Filme Z/video.mkv",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": []
+    },
+    {
+        "name": "Os Vingadores Era de Ultron",
+        "thumb": "/public/movies/Os Vingadores Era de Ultron/thumb.jpg",
+        "slug": "os-vingadores-era-de-ultron",
+        "src": "/public/movies/Os Vingadores Era de Ultron/video.mp4",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": [
+            "legenda.srt"
+        ]
+    },
+    {
+        "name": "Pantera Negra",
+        "thumb": "/public/movies/Pantera Negra/thumb.jpg",
+        "slug": "pantera-negra",
+        "src": "/public/movies/Pantera Negra/video.mp4",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": [
+            "legenda.srt"
+        ]
+    },
+    {
+        "name": "Pateta 2 Radicalmente Pateta",
+        "thumb": "/public/movies/Pateta 2 Radicalmente Pateta/thumb.jpg",
+        "slug": "pateta-2-radicalmente-pateta",
+        "src": "/public/movies/Pateta 2 Radicalmente Pateta/video.mkv",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": []
+    },
+    {
+        "name": "Raya e o Ultimo Dragão",
+        "thumb": "/public/movies/Raya e o Ultimo Dragão/thumb.png",
+        "slug": "raya-e-o-ultimo-dragão",
+        "src": "/public/movies/Raya e o Ultimo Dragão/video.mkv",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": []
+    },
+    {
+        "name": "Soul",
+        "thumb": "/public/movies/Soul/thumb.jpg",
+        "slug": "soul",
+        "src": "/public/movies/Soul/video.m4v",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": []
+    },
+    {
+        "name": "Star Wars Os Últimos Jedi",
+        "thumb": "/public/movies/Star Wars Os Últimos Jedi/thumb.jpg",
+        "slug": "star-wars-os-últimos-jedi",
+        "src": "/public/movies/Star Wars Os Últimos Jedi/video.mp4",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": []
+    },
+    {
+        "name": "Thor Ragnarok",
+        "thumb": "/public/movies/Thor Ragnarok/thumb.jpg",
+        "slug": "thor-ragnarok",
+        "src": "/public/movies/Thor Ragnarok/video.mp4",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": [
+            "legenda.srt"
+        ]
+    },
+    {
+        "name": "Truque de Mestre 2 O Segundo Ato",
+        "thumb": "/public/movies/Truque de Mestre 2 O Segundo Ato/thumb.jpg",
+        "slug": "truque-de-mestre-2-o-segundo-ato",
+        "src": "/public/movies/Truque de Mestre 2 O Segundo Ato/video.mkv",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": []
+    },
+    {
+        "name": "Um Espião Animal",
+        "thumb": "/public/movies/Um Espião Animal/thumb.jpg",
+        "slug": "um-espião-animal",
+        "src": "/public/movies/Um Espião Animal/video.mp4",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": []
+    },
+    {
+        "name": "Viva A Vida é uma Festa",
+        "thumb": "/public/movies/Viva A Vida é uma Festa/thumb.png",
+        "slug": "viva-a-vida-é-uma-festa",
+        "src": "/public/movies/Viva A Vida é uma Festa/video.mp4",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": []
+    },
+    {
+        "name": "WALL-E",
+        "thumb": "/public/movies/WALL-E/thumb.jpg",
+        "slug": "wall-e",
+        "src": "/public/movies/WALL-E/video.mkv",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": [
+            "legenda.srt"
+        ]
+    },
+    {
+        "name": "Warcraft O Primeiro Encontro de Dois Mundos",
+        "thumb": "/public/movies/Warcraft O Primeiro Encontro de Dois Mundos/thumb.jpg",
+        "slug": "warcraft-o-primeiro-encontro-de-dois-mundos",
+        "src": "/public/movies/Warcraft O Primeiro Encontro de Dois Mundos/video.mkv",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": [
+            "legenda.srt"
+        ]
+    },
+    {
+        "name": "X-Men Apocalipse",
+        "thumb": "/public/movies/X-Men Apocalipse/thumb.jpg",
+        "slug": "x-men-apocalipse",
+        "src": "/public/movies/X-Men Apocalipse/video.mp4",
+        "description": "",
+        "duration": "1:30:48",
+        "year": 2021,
+        "categories": [ 1, 3, 5, 6, 9 ],
+        "legends": []
+    }
+]

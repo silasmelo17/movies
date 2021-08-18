@@ -13,9 +13,7 @@
     "paths": {
       "@Config/*": ["./config/*"],
       "@Controllers/*": ["./controller/*"],
-      "@Database/*": ["./database/*"],
       "@Middlewares/*": ["./middlewares/*"],
-      "@Models/*": ["./models/*"],
       "@Routes/*": ["./routes/*"],
       "@Types/*": ["./types/*"],
       "@Util/*": ["./util/*"],

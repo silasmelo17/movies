@@ -9,8 +9,7 @@ const expressLayouts = require('express-ejs-layouts');
 const app = express();
 
 // Controllers
-import apiRouter from '@Routes/api/index';
-import webRouter from '@Routes/web/index';
+import routes from '@Routes/index';
 
 // Express Config
 app.use(express.json());
@@ -30,8 +29,7 @@ app.set('views', './src/views');
 app.set('view engine', 'ejs');
 
 // Routes
-app.use(apiRouter);
-app.use(webRouter);
+app.use(routes);
 
 //Listen Server
 const PORT = process.env.PORT || 8080;

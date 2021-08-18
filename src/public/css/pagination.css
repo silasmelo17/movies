@@ -4,13 +4,13 @@
     background: var(--bs-dark);
 }
 
-.page-item.disabled .page-link {
-    border-color: var(--bs-gray-dark);
-    background: var(--bs-gray-dark);
-}
-
-.page-link:hover {
+.page-item.disabled .page-link,
+.page-link:hover,
+.page-link:focus {
     background: var(--bs-gray-dark);
     border-color: var(--bs-gray-dark);
 }
 
+.page-link:focus {
+    box-shadow: none;
+}

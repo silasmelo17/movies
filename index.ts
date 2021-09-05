@@ -13,7 +13,7 @@ import routes from '@Routes/index';
 
 // Express Config
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+app.use( express.urlencoded({ extended: true }) );
 
 // Static
 app.use('/public/animes', express.static(path.join(__dirname, process.env.ANIMES_PATH || './' )));

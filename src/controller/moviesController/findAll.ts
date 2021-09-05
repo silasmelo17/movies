@@ -4,6 +4,12 @@ import axios from '@Config/axios.config';
 
 
 
+const addHref = (data: []) => 
+    data.map( (movie:any) => { 
+        movie.href = `/movies/${movie.slug}`
+        return movie;
+    })
+
 async function findAll( req: Request, res: Response, next: NextFunction ) {
     const { limit, page } = req.query;
 
@@ -15,11 +21,13 @@ async function findAll( req: Request, res: Response, next: NextFunction ) {
                 page
             }
         });
+
         
         res.locals = {
-            view: 'movies',
+            ...data,
+            view: 'listing',
             title: "Filmes",
-            ...data
+            data: addHref(data.data)
         };
         
         return next();

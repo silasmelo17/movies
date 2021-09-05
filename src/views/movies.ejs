@@ -1,9 +1,0 @@
-
-<main class="container mt-5">
-    <section class="d-grid">
-        <% data.forEach( movie=> { %>
-            <%- include('components/movie', movie ) -%> 
-        <% }); %>
-    </section>
-    <%- include('layouts/pagination', { page, count, limit, buttons: 5, baseUrl: '/movies' } ); -%>
-</main>

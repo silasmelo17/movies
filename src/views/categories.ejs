@@ -1,9 +1,11 @@
 
 <main class="container mt-5">
-    <h3 class="bg-gray-dark text-light p-2 ps-4"><%= category.name %></h3>
+    <h5 class="bg-gray-dark text-light p-2 ps-4">
+        <%= category.name %>
+    </h5>
     <section class="d-grid mt-4">
         <% data.forEach( movie=> { %>
-            <%- include('components/movie', movie ) -%> 
+            <%- include('components/movie', { ...movie, href: `${baseUrl}/${movie.slug}` } ) -%> 
         <% }); %>
     </section>
     <%- include('layouts/pagination', { page, count, limit, buttons: 5, baseUrl } ); -%>
